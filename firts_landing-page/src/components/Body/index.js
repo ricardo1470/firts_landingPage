@@ -4,18 +4,18 @@ import Card from "../Card";
 export default function Body() {
     const data = [
         {
-            url: "https://th.bing.com/th/id/R.e1e6c0172e31dc5562ebf67f4137d6a3?rik=VzXDIuW3%2byAUhg&pid=ImgRaw&r=0",
-            name: "Cat Name",
+            url: "https://sm.ign.com/ign_latam/screenshot/default/porungadragondbk_s497.png",
+            name: "shenlong",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            url: "https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59c4f5655bafe82c692a7052/gato-marron_0.jpg",
-            name: "Cat Name2",
+            url: "https://depor.com/resizer/Xu0TiJz0kmGAxH_Q-Aa2IylY3Xg=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/ZQ4SJGIXHNGEBNJFT543NO4REE.jpg",
+            name: "shenlong2",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         },
         {
-            url: "https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/594a1ced5bafe85dfd3c9869/gato-romano_0.jpg",
-            name: "Cat Name3",
+            url: "https://cdn.alfabetajuega.com/wp-content/uploads/2020/09/dragones-780x405.jpg",
+            name: "shenlong3",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         }
     ]
