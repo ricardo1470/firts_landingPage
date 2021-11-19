@@ -2,6 +2,7 @@ import React from 'react';
 import Conditions from './components/Conditions';
 import Loops from './components/Loops';
 import Button from './components/Button';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Conditions />
         <Loops />
         <Button />
+        <Form />
     </div>
   );
 }
