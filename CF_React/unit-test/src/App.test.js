@@ -5,7 +5,6 @@ let component;
 let header;
 
 describe("<App />", () => {
-  
 
   beforeAll(() => {
     component = create(<App />);

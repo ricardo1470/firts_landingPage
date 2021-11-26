@@ -6,7 +6,7 @@ let component;
 
 const props = {
     history: {},
-    handleSumit: () => {},
+    handleSubmit: jest.fn(),
 };
 
 describe("<Form />", () => {
@@ -40,6 +40,10 @@ describe("<Form />", () => {
 
     it("the onSubmit should be called without problems", () => {
         const form = component.root.findByType("form");
-        //form.props.onSubmit();
+        form.props.onSubmit();
+
+        expect(props.handleSubmit).toHaveBeenCalled();
+        expect(props.handleSubmit).toHaveBeenCalledTimes(1);
+        expect(props.handleSubmit).toHaveBeenCalledWith(undefined, props.history, "");
     });
 });
