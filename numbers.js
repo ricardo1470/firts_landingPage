@@ -85,5 +85,26 @@ function fractions() {
             fraction = frac[i] + frac[j];
         }
     }
-    console.log(fraction);
+    //console.log(fraction);
+}
+
+
+/*let inputs = [1, "turing", {x:2}, [3, 4], {y: 5}]
+for(let i=0; i<inputs.length; i++){
+    if(inputs[i] === "turing") inputs.slice(i, 1)
+    else console.log(inputs[i])
+}
+
+console.log("otro")
+let arr = [1, "turing", {x:2}, [3, 4], {y: 5}]
+delete arr[1]
+console.log(arr.length);
+
+console.log("uno mas")
+let a = {y: 10}
+a.x = a
+console.log(JSON.stringify(a))*/
+
+function solution(sequence) {
+    
 }
